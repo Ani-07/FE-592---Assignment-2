@@ -36,8 +36,8 @@ def my_scraper (a):
         parser = MyHTMLParser()
         parser.feed(get_resp.text)
 
-my_scraper(50)
-
 if __name__ == "__main__":
     my_scraper()
+    my_scraper(50)
+
 
