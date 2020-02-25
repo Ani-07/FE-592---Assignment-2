@@ -37,7 +37,6 @@ def my_scraper (a):
         parser.feed(get_resp.text)
 
 if __name__ == "__main__":
-    my_scraper()
     my_scraper(50)
 
 
